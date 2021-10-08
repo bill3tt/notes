@@ -95,15 +95,13 @@ Success is not achieved by being smart - passion and persistence are the bigger 
 
 ## What is a chunk?
 
-Mental leap that unites bits of information together though meaning. Creates a 'chunk'.
+Mental leap that unites bits of information together though practice or meaning.
 
 Memorising a fact without understanding or context, does not help it to make sense with other things your are learning.
 
 Working memory is in the pre-frontal cortex.
 
 'Octopus of attention' slips tenatcles through 4 slots of working memory to connect information
-
-Diffuse mode makes random connections.
 
 Memory does not appear to work right when you are angry, stressed or afraid.
 
@@ -144,7 +142,7 @@ Understanding requires repetition & practice, occurs when you can do it yourself
 
 Only doing it yourself creates the neural patterns required for mastery.
 
-### Context
+### Practice
 
 This allows you to know when, and when not, to use this chunk of information.
 
@@ -162,3 +160,131 @@ Doing a 2 minute walk through a text book can help you get a sense for the big p
 
 They let you know where to put the chunks and how they fit together. One you have this - fill in the picture.
 
+
+## Illusions of competence
+
+### Recall
+
+Recalling the material is much more productive in learning that rereading a number of times or concept maps.
+
+The retrieval process itself enhances deep learning and helps build chunks.
+
+If you are trying to build connections between chunks before the chunks are well embedded - not as effective.
+
+As you begin to chunk the concept, it will become easier to recall and reduce the space taken in working material.
+
+With chunking, you are effectively increasing the amount of information that can be processed in working memory.
+
+### Illusions of competence
+
+Glacing at a solution and thinking you understand it yourself is the most common illustion on competence.
+
+You need to have the information embedded in your own working memory in order to recall it and think creatively with it.
+
+Highlighting should be used very carefull!
+
+Words & notes synthesizing the key concepts is very effective way of note taking.
+
+Because it is easier to reread the book instead of recalling the points, students often reread and assume they are learning.
+
+Wanting to learn the material and spending time with material is not a guaranteed strategy in actually learning the material.
+
+### Self testing
+
+Failing and mistakes are useful in your own self-testing to excercise the recall of information.
+
+Recalling material outside of your usual place of study - eliminates subliminal clues that aid recall.
+
+Lets you know if you are actually taking in the material or not!
+
+## Seeing the bigger picture
+
+It is hard to learn when you are not into it - but it is easy when you are into it - why is that?
+
+Motivation is controlled by dopamine. Dopamine is released when we receive and unexpected reward.
+
+Dopamine is used to predict future awards.
+
+Addictive drugs artificially increase dopamine, but can lead to cravings and loss of free will.
+
+Anhedonia is the inability to feel pleasure.
+
+Dopamine neurons part of the unconcious part of the brain.
+
+In monkey troops, the cheif has the highest serotonin levels.
+
+Low serotonin levels are associate with risk-taking behaviour.
+
+Keep your amygdala happy to be a happy learner.
+
+## The value of a library of chunks: compaction, transfer, creativity and the law of serendipity
+
+The ability to combine chunks in new and original ways underlies a lot of historical innovation.
+
+To enhance knowledge and expertise, people gradually build the number of chunks in their mind, valuable bits of information to combine together.
+
+Chunks can help you understand new concepts - they can be related to similar concepts in other fields - a.k.a. transfer.
+
+Way of compressing information much more compactly. The 'ribbons' are longer. 
+
+Like a library of neural pathways.
+
+Diffuse mode of thinking can help you piece together disperse chunks. To find similarities and patterns.
+
+Find patterns that simplify problem solving techniques.
+
+Two ways to solve problems:
+* Sequential thinking - each small step leads deliberately to the next one.
+* Holistic intuituion - creative diffuse mode linking of focused mode thoughts. 
+
+Diffuse mode semi-random solutions should always be studied with the focused mode to see if they make sense.
+
+### Law of Serendipity - lady luck favours the one who tries.
+
+Focus on the first section, when you place the first concept in memory, the second will go in more easily, the third even easier.
+
+## Overlearning, choking, einstellung, chunking and interleaving
+
+### Overlearning
+
+Continuing to learn or study too muchafter you have mastered what you can in the session is called overlearning.
+
+Beware of repetitive overlearning, it can be a waste of valuable learning time.
+
+It does not necessarily stengthen long term memory connections.
+
+Subsequent study session to embed neural patterns is useful.
+
+### Deliberate practice
+
+Balance your studies to deliberately focus on the things that you find more difficult.
+
+### Einstellung
+
+A neural pathway you have prevents other, potentially better, solutions.
+
+Like installing a roadblock because of the initial way you were looking at something.
+
+Focused mode can create ruts preventing finding the best solution.
+
+Sometimes your initial intuition is wrong.
+
+### Interleaving
+
+Mastering a topic is not just about creating chunks, but also about selecting chunks from choices.
+
+The best way to practice this is by jumping backwards and forwards between the source material and problems.
+
+Do what you can by mixing up your learning.
+
+Skipping around problems can make learning feel more difficult, but ultimately more deeply.
+
+When you interleave between subjects, you can create new chunks between fields.
+
+Developing expertise in multiple fields will allow you to bring new ideas from one to the other.
+
+Kuhn - most paradigm shifts are brought about by either young people or people trained in a different discipline - lack of einstellung.
+
+"Science progresses one funeral at a time" - deeply embedded ways of doing things.
+
+Keep trying and you will be pleasantly surprised with the results.
