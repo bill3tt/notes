@@ -111,3 +111,72 @@ Effective teams that successfully contribute to and integrate each other's work 
 
 Teams that are diverse and inclusive are higher performing.
 
+Work that contributes to team outcomes or supports another team's productivity may come at the expense of an individual's productivity.
+
+Effective collaboration, can drive down the need for some individual activities (e.g., unnecessary code reviews and rework), improve system performance (faster pull requests), and help sustain productivity and avoid burnout.
+
+Example metrics used as proxies to measure communication, collaboration and coordination:
+* Discoverability of documentation and expertise.
+* How quickly work is integrated.
+* Quality of reviews of work contributed by team members.
+* Network metrics that show who is connected to whom and how.
+* Onboarding time for and experience of new members.
+
+### Efficiency and flow
+
+Efficiency and flow: the ability to complete work or make progress on it with minimal interruptions or delays.
+
+Developers often associate productivity with the ability to get complex tasks done with minimal interruptions - i.e. 'getting into the flow'.
+
+For individual efficiency, it is important to set boundaries to get & stay productive i.e. blocking out time for focus.
+
+For team and system level efficiency, value-stream mapping is important, which captures the steps needed to take software from idea and creation to delivering it to the end customer.
+
+Deployment frequency measures how often an organization successfully releases to production, and lead time for changes measures the amount of time taken to getting a commit into production.
+
+The flow of knowledge and information is important.
+
+Some metrics to capture efficiency and flow dimensions are:
+* Number of handoffs in a process; number of handoffs across different teams in a process.
+* Perceived ability to stay in flow and complete work.
+* Interruptions: quantity, timing, how spaced, impact on development work and flow.
+* Time measures through a system: total time, value-added time, wait time.
+
+## How to use the framework
+
+To measure productivity, teams should capture several metrics across multiple dimensions of the framework - at least 3.
+
+At least one metric should include perceptual measures such as survey data - this gives a much broader picture of productivity.
+
+Often times, metrics will be in conflict, this is good as is paints a nuanced picture of your work & systems.
+
+What do people deem important in an organisation? Find out what is being measured, as that communicates what is valued and influences the way people behave and react.
+
+### What to watch out for
+
+Too many metrics can lead to confusion and lower motivation - you don't need all dimensions to be helpful.
+
+Presented with an extensive list, it will feel overwhelming for the team and lower motivation.
+
+Any measurement should be used carefully - it is never a perfect proxy.
+
+Teams & organizations should be cognizant of privacy and only report anonymized aggregate results at the team or group level.
+
+## Example
+
+SRE team.
+
+* Satisfaction: how satisfied are SREs with the IM process, escalation, routing and on-call rotations?
+* Performance: focus on system reliability, monitoring system's ability to detect and flag issues faster, before they hit the customer. MTTR.
+* Activity: number of issues caught by the monitoring systems, number of incidents created, number of incidents resolved.
+* Communication and collaboration: do people communicate effectively during an incident? Are things properly documented?
+* Efficiency and flow: number of hops before an incident is assigned to the right individual or team.
+
+
+## Why this matters now
+
+Developer producivity is about more than an individual's activity levels or the engineering systems relied on to ship software.
+
+This framework captures many different dimensions, without it, harmful myths about productivity may persist.
+
+Measuring productivity requires thinking about the wider context.
