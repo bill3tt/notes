@@ -5,7 +5,6 @@ _These are my personal notes from [The SPACE of Developer Productvity](https://q
 Developer productivity is necessary to improve the well-being & satisfaction of developers. Producivity & satisfaction are linked.
 
 > The most important takeaway from exposing these myths is that productivity cannot be reduced to a single dimension (or metric!).
-
   * [Developer Productivity Myths](#developer-productivity-myths)
     + [Myth: Productivity is all about developer activity](#myth--productivity-is-all-about-developer-activity)
     + [Myth: Productivity is only about individual performance](#myth--productivity-is-only-about-individual-performance)
@@ -17,6 +16,14 @@ Developer productivity is necessary to improve the well-being & satisfaction of 
     + [Performance](#performance)
     + [Activity](#activity)
     + [Communication and collaboration](#communication-and-collaboration)
+    + [Efficiency and flow](#efficiency-and-flow)
+  * [How to use the framework](#how-to-use-the-framework)
+    + [What to watch out for](#what-to-watch-out-for)
+  * [Example](#example)
+  * [Why this matters now](#why-this-matters-now)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## Developer Productivity Myths
 
