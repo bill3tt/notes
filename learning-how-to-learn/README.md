@@ -2,6 +2,35 @@
 
 Academic sources are available in course notes.
 
+- [Learning How To Learn - Notes](#learning-how-to-learn---notes)
+- [Week 1](#week-1)
+  * [Procrastination](#procrastination)
+  * [Practice Makes Permanent](#practice-makes-permanent)
+  * [Memory](#memory)
+    + [Working Memory](#working-memory)
+    + [Long Term Memory](#long-term-memory)
+    + [Spaced Repetition](#spaced-repetition)
+  * [Sleep](#sleep)
+  * [Interview with Dr Terrence Sejnowski](#interview-with-dr-terrence-sejnowski)
+- [Week 2](#week-2)
+  * [What is a chunk?](#what-is-a-chunk-)
+  * [How to form a chunk?](#how-to-form-a-chunk-)
+    + [Focus](#focus)
+    + [Understand](#understand)
+    + [Practice](#practice)
+  * [Illusions of competence](#illusions-of-competence)
+    + [Recall](#recall)
+    + [Illusions of competence](#illusions-of-competence-1)
+    + [Self testing](#self-testing)
+  * [Seeing the bigger picture](#seeing-the-bigger-picture)
+  * [The value of a library of chunks: compaction, transfer, creativity and the law of serendipity](#the-value-of-a-library-of-chunks--compaction--transfer--creativity-and-the-law-of-serendipity)
+    + [Law of Serendipity - lady luck favours the one who tries.](#law-of-serendipity---lady-luck-favours-the-one-who-tries)
+  * [Overlearning, choking, einstellung, chunking and interleaving](#overlearning--choking--einstellung--chunking-and-interleaving)
+    + [Overlearning](#overlearning)
+    + [Deliberate practice](#deliberate-practice)
+    + [Einstellung](#einstellung)
+    + [Interleaving](#interleaving)
+
 # Week 1
 
 ## Procrastination
