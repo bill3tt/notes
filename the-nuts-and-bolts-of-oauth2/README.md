@@ -124,11 +124,49 @@ client_secret is that app's password.
 
 End goal - deliver an access token to the application via the back channel.
 
-PKCE code verifier -> creates a hash value.
+PKCE code verifier -> one time secret created once per oauth flow.
+PKCE code challenge -> hash of the code verifier.
+
+We provide the hash of the secret rather than the secret itself because it is going over the front channel.
 
 PKCE will be recommended eventually even for confidential clients.
 
 Authorization code injection attack.
+
+Code verifier -> Random string 43-128 characters long
+Code challenge -> base64url(sha256(code_verifier))
+
+Application -> Auth Server (front channel)
+
+```
+echo "https://authorization-server.com/auth?
+  response_type=code&
+  client_id=$CLIENT_ID&
+  redirect_uri=example-app.com/redirect& // needs to match one of the registered redirect URLs
+  scope=photos&
+  state=anything-can-go-here& // originally used for CSRF protection, but redundant with PKCE
+  code_challenge={CODE_CHALLENGE}& // hashed code verifier value
+  code_challenge_method=S256" | xclip -sel clip
+```
+
+Auth Server -> Application (front channel)
+
+```
+https://example-app.com/redirect?
+  code={AUTH_CODE}
+  state=XXXX // check that this is the same as the one that you sent
+```
+
+Application -> Auth Server (back channel)
+```
+POST https://authorization-server.com/token
+  grant_type=authorization_code&
+  code={AUTH_CODE}&
+  redirect_uri={REDIRECT_URI}&
+  code_verifier={CODE_VERIFIER}& // the random one-time secret we created
+  client_id={CLIENT_ID}&
+  client_secret={CLIENT_SECRET}
+```
 
 
 ## Section 8 - Client Credentials Grant
@@ -146,8 +184,8 @@ Kind of like a service account
 ```
 curl -X POST https://dev-54113604.okta.com/oauth2/default/v1/token \
   -d grant_type=client_credentials \
-  -d client_id={CLIENT_ID} \
-  -d client_secret={CLIENT_SECRET} \
+  -d client_id=$CLIENT_ID \
+  -d client_secret=$CLIENT_SECRET \
   -d scope=photos
 ```
 
@@ -172,5 +210,43 @@ ID tokens are always JWTs.
 
 If you authorize with the `id_token` scope you get the ID token in the same place you get the access token.
 
+### Hybrid OpenID Connect Flows
+
+Hybrid flows - using combinations of response types. Plain OAuth uses just `code`.
+
+OIDC defines hybrid flows.
+
+Front channel - untrusted.
+
+### Validating & Using an ID Token
+
+Critical to validate ID tokens received over the front channel.
+
+1. Validate JWT signature.
+2. Check the issuer - is the token coming from the auth server you expect.
+3. Check the aud - should be the same as the client ID.
+4. Check the nonce.
+
+Any time your ID token is coming from an untrusted source - it needs to be validated.
+
+```
+https://dev-54113604.okta.com/oauth2/default/v1/authorize?
+  response_type=code&
+  scope=openid+profile+email&
+  client_id=$CLIENT_ID&
+  state=anything-can-go-here&
+  redirect_uri=https://example-app.com/redirect&
+  code_challenge=dwu2usFNWKyBqnRWqt_U9SEqhBh7No3gTw_z4Bj4tYQ&
+  code_challenge_method=S256
+```
 
 
+```
+curl -X POST https://dev-54113604.okta.com/oauth2/default/v1/token \
+  -d grant_type=authorization_code \
+  -d redirect_uri=https://example-app.com/redirect \
+  -d client_id=$CLIENT_ID \
+  -d client_secret=$CLIENT_SECRET \
+  -d code_verifier=d46d86846b1b90bd92980346817c1ec0fd0eb6922c794826061dc320 \
+  -d code=rwIcRVaTCgj2p8quMv0reChE52SsTv6oHk1cM0Sg7wE
+```
